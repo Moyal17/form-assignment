@@ -1,0 +1,32 @@
+.custom-select {
+    position: relative;
+    width: 100%;
+}
+
+.selected-option {
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.arrow-icon {
+    float: right;
+}
+
+.options-container {
+    position: absolute;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-top: none;
+    z-index: 1;
+}
+
+.option {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.check-icon {
+    margin-right: 10px;
+}
